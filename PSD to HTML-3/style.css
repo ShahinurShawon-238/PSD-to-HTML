@@ -1,0 +1,267 @@
+@font-face{
+	font-family: "Lato bold";
+	src: url('fonts/Lato-Bold.woff') format('woff');
+}
+@font-face{
+	font-family: "Lato regular";
+	src: url('fonts/Lato-Regular.woff') format('woff');
+}
+@font-face{
+	font-family: "Lato italic";
+	src: url('fonts/Lato-Italic.woff') format('woff');
+}
+/**Header section**/
+.header-section{
+	overflow: hidden;
+	position: relative;
+}
+.header-section .main-menu{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 30px;
+	width: 100%;
+}
+.header-section .header-image img{
+	width: 100%;
+	height: auto;
+}
+.header-section .logo-section{
+	display: none;
+}
+.header-section ul li{
+	margin: 0 35px;
+}
+.header-section ul li a{
+	text-transform: uppercase;
+	font-family: "Lato bold";
+	color: #4d4959;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+/* Welcome section */
+.welcome-section {
+	padding: 100px 0;
+	background-color: #f7f7f7;
+}
+.h2{
+	font-family: "Lato bold";
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #353738;
+	padding: 20px 0;
+	letter-spacing: 2px;
+	
+}
+.welcome-section p{
+	font-family: "Lato regular";
+	font-size: 18px;
+	line-height: 2em;
+	color: #9b9d9f;
+}
+/* Gallery section */
+.row{
+	margin: 0;
+}
+.gallery-1st .col-8{
+	background-image: url("images/1st.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+.col-8 img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: block;
+	margin: auto;
+	margin-top: -59px;
+	margin-left: -55px;
+	width: 113px;
+	height: 118px;
+}
+
+.col-4{
+	padding: 0;
+}
+.text-area{
+	padding-top: 50px;
+}
+.text-area .h3{
+	font-family: "Lato bold";
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 20px 0;
+	color: #353738;
+}
+.text-area p{
+	font-family: "Lato regular";
+	font-size: 13px;
+	line-height: 2em;
+	color: #9b9d9f;
+	padding: 0 50px;
+}
+.dash{
+	text-align: center;
+	color: #cecccc;
+	padding-bottom: 50px;
+	position: relative;
+}
+.sit-image{
+	width: 100%;
+	
+}
+.dash::after{
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 10px solid #ffffff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -10px;
+	
+}
+.gallery-2nd .col-8{
+	background-image: url("images/3rd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+.gallery-3rd .col-4:first-child{
+	background-image: url("images/5th.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+.gallery-3rd .col-4:first-child img{
+	width: 90px;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 65%;
+
+}
+.gallery-3rd .col-4:last-child{
+	background-image: url("images/7th.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+/* Tweet section */
+.tweet-section{
+	padding: 80px;
+	background-color: #f7f7f7;
+}
+.tweet-section .container{
+	max-width: 995px;
+}
+.tweet-section i{
+	font-size: 32px;
+	color: #56c7ee;
+	padding-bottom: 25px;
+}
+.tweet-section .h3{
+	font-family: "Lato bold";
+	font-size: 16px;
+	color: #353738;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+.tweet-section .min{
+	color:  #B1B1B1;
+}
+.tweet-section p{
+	font-family: "Lato italic";
+	color: #848789;
+}
+/* Sell section */
+.col-6,
+.col-12{
+	padding: 0;
+}
+.discover-shop{
+	background-color:#282f35 ;
+	width: 100%;
+	height: 175px;
+	padding: 75px;
+}
+.container form{
+	text-align: center;
+}
+.discover-shop button{
+	font-family: "Lato bold";
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	border-radius: 0;
+	padding: 10px 30px;
+}
+/* Subscribe section */
+.subscribe-section{
+	padding: 100px 0;
+}
+.subscribe-section .h4{
+	font-family: "Lato italic";
+	font-size: 24px;
+	color: #848789;
+	padding: 20px 0;
+}
+.subscribe-section form input{
+	font-family: "Lato italic";
+	color: #8B8B8B;
+	padding: 18px 165px 22px 18px;
+}
+.subscribe-section form button{
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 16.1px 40px;
+	border-radius: 0;
+	background-color: #64c29e;
+
+}
+/* Footer section */
+.footer-section{
+	background-color: #f7f7f7;
+	padding: 100px 0;
+}
+.footer-section .addr{
+	color: #848789;
+	float: left;
+	overflow: hidden;
+}
+.footer-section .addr p{
+	font-family: "Lato italic";
+}
+.footer-section .social-media{
+	overflow: hidden;
+	padding: 28px 280px;
+	font-size: 32px;
+}
+.footer-section .handcraft{
+	float: right;
+	font-family: "Lato italic";
+	color: #848789;
+	margin-top: -60px;
+}
+.social-media .tw{
+	color: #56c7ee;
+}
+.social-media .fb{
+	color: #537bbd;
+}
+.social-media .pi{
+	color: #eb5755;
+}

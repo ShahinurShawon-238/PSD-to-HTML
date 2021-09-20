@@ -1,0 +1,97 @@
+@media all and (max-width: 768px){
+	.main-menu ul li{
+		display: block;
+		margin: 25px 0;
+	}
+	.text-area{
+		background-image: url('images/hand.png');
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: 75% auto;
+	}
+	.community-area{
+		text-align: center;
+		overflow: hidden;
+	}
+	.community-area .arrow{
+		text-align: center;
+	}
+	
+	.community-area .community-text{
+		margin-bottom: 20px;
+		padding-left: 0;
+	}
+	.community-area .community-images{
+		float: none;
+		overflow: hidden;
+	}
+	.community-area .community-images img:first-child{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.subscribe-area{
+		padding: 180px;
+	}
+	
+}
+
+@media all and (max-width: 415px){
+	.welcome-text{
+		margin-top: 80px;
+	}
+	.social-media{
+		margin-top: 80px;
+	}
+	.text-area{
+		background-image: url('images/hand.png');
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: 150% auto;
+		text-align: center;
+	}
+	.text-area p{
+		color: #000000;
+	}
+	.design{
+		background-size: 70% auto;
+		background-position: center;
+	}
+	.design-text{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.design-text p{
+		color: #000000;
+	}
+	.subscribe-area{
+		padding: 10px;
+	}
+	.download-area .store-logo{
+		margin-right: 0px;
+		margin-bottom: 10px;
+		display: inline-block;
+		padding: 12.5px 21px 19px 21px;
+	}
+	.footer-logo{
+		float: none;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
